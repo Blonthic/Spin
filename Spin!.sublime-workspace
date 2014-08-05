@@ -107,7 +107,7 @@
 			"file": "Project/index.html",
 			"settings":
 			{
-				"buffer_size": 556,
+				"buffer_size": 586,
 				"line_ending": "Unix"
 			}
 		},
@@ -232,15 +232,15 @@
 					"file": "Project/index.html",
 					"settings":
 					{
-						"buffer_size": 556,
+						"buffer_size": 586,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								161,
-								161
+								168,
+								168
 							]
 						],
 						"settings":
@@ -272,7 +272,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 148.0,
