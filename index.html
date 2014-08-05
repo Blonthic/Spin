@@ -1,0 +1,43 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="func.js"></script>
+</head>
+<body onload="initial()" onmousedown="start()" onmouseup="reset()">
+	<div id="spinner">
+	<img id="background" src="pic/spinner-background.png" ondragstart ="return false;"></img>
+	<table class="main">
+	<tr>
+		<td id="tl" class="cube" onmouseover="detect()"></td>
+		<td id="tc" class="long1" ></td>
+		<td id="tr" class="cube" onmouseover="detect()"></td>
+	</tr>
+	<tr>
+		<td id="cl" class="long2" ></td>
+		<td id="cc" onmouseover="detect('cc')"></td>
+		<td id="cr" class="long2" ></td>
+	</tr>
+	<tr>
+		<td id="bl" class="cube" onmouseover="detect()"></td>
+		<td id="bc" class="long1" ></td>
+		<td id="br" class="cube" onmouseover="detect()"></td>
+	</tr>
+	</table>
+	</div>
+	<div id ="stat" onselect="reuturn">
+		<span>Speed: </span>
+	<p id = "speed">0</p>
+	<p id="test">
+		undetected
+	</p>
+	<!--
+	<p id="time">
+		0
+	</p>
+	-->
+	<p id="pminute">
+		Spin per minute = 0
+	</p>
+	</div>
+</body>
+</html>

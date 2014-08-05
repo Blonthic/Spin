@@ -1,0 +1,54 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<script type="text/javascript" src="func.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+</head>
+<body onload="initial()" onmousedown="start()" onmouseup="reset()" onkeydown="start()" onkeyup="reset()"><!--恢复转盘旋转时添加时间onmousemove="rotate(event)" -->
+
+	<div id="spinner">
+	<img id="background" src="pic/spinner-background.png" ondragstart ="return false;"></img>
+	<img id="metre" src="pic/spinner-metre.png" ondragstart ="return false;"></img>
+	<img id="circle" src="pic/spinner-circle.png" ondragstart="return false;" style="none"></img>
+	<table class="main">
+	<tr>
+		<td id="tl" class="cube" onmouseover="detect(1)"></td>
+		<td id="tc" class="long1" ></td>
+		<td id="tr" class="cube" onmouseover="detect(0)"></td>
+	</tr>
+	<tr>
+		<td id="cl" class="long2" ></td>
+		<td id="cc" onmouseover="detect('cc')"></td>
+		<td id="cr" class="long2" ></td>
+	</tr>
+	<tr>
+		<td id="bl" class="cube" onmouseover="detect(2)"></td>
+		<td id="bc" class="long1" ></td>
+		<td id="br" class="cube" onmouseover="detect(3)"></td>
+	</tr>
+	</table>
+	</div>
+	<div id ="stat" unselectable="on" onselectstart="return false">
+		<span unselectable="on" onselectstart="return false">Speed: </span>
+		<p id = "speed" unselectable="on" onselectstart="return false">0</p>
+	</div>
+	<div id ="stat2">
+		<p id="test" unselectable="on" onselectstart="return false">
+			undetected
+		</p>
+
+		<p id="maxSpeed">Max Speed = 0</p>
+		
+		<p id="time">
+			Time = 0 s
+		</p>
+		
+		<p id="pminute" unselectable="on" onselectstart="return false">
+			Spins per minute = 0
+		</p>
+	</div>
+	<!-- <script type="text/javascript">rotater();</script> -->
+	<div id="Version"><p>Project Spin! Ver1.00</p>
+		<p>Yinz</p></div>
+</body>
+</html>

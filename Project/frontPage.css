@@ -1,0 +1,67 @@
+hr {
+	width: 1100px;
+}
+
+#header {
+	text-align: center;
+	background-image: url(bg.png);
+	color: white;
+}
+
+#content {
+	text-align: center;
+	padding: 30px 0px;
+}
+
+#text {
+	text-align: left;
+}
+
+h1 , p {
+	font-family: Consolas;
+}
+
+#header h1{
+	font-size: 4em;
+	font-weight: 100;
+	position: relative;
+	right: 300px; 
+	margin:  0px;
+	padding-top: 40px;
+}
+
+#header p {
+	position: relative;
+	right: 400px;
+}
+
+#text p{
+	position: relative;
+	left: 70px; 
+	padding: 21px 10px 26px 10px;
+	margin: 0px;
+}
+
+#main {	
+	vertical-align: middle;
+	width: 1100px;
+	text-align: center;
+	margin: auto;
+	overflow: hidden;
+	box-shadow: 0px 10px 50px rgba(0,0,0,0.5);
+}
+
+#text ,#content ,hr{
+	margin: 0px;
+	background-image: url(bg2.png); 
+}
+
+body {
+	background-image: url(bg2.png);
+}
+
+@font-face
+{
+    font-family: "Hiragino_Sans_GB_W3";
+src: url('/wp-content/themes/clearision-child/Hiragino_Sans_GB_W3.otf')
+}
