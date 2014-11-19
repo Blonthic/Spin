@@ -103,46 +103,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "Project/index.html",
-			"settings":
-			{
-				"buffer_size": 586,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Project/frontPage.css",
-			"settings":
-			{
-				"buffer_size": 885,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Project/spiner.html",
-			"settings":
-			{
-				"buffer_size": 1785,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Project/style.css",
-			"settings":
-			{
-				"buffer_size": 1865,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "Project/func.js",
-			"settings":
-			{
-				"buffer_size": 2989,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "Packages/Python/Python.sublime-build",
 	"command_palette":
@@ -172,6 +132,11 @@
 	},
 	"file_history":
 	[
+		"/Users/yinz/Github/Spin/Project/index.html",
+		"/Users/yinz/Github/Spin/Project/frontPage.css",
+		"/Users/yinz/Github/Spin/Project/spiner.html",
+		"/Users/yinz/Github/Spin/Project/style.css",
+		"/Users/yinz/Github/Spin/Project/func.js",
 		"/Users/yinz/Github/Spin/spiner.html",
 		"/Users/yinz/Github/Spin/style.css",
 		"/Users/yinz/Github/Spin/func.js",
@@ -224,144 +189,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "Project/index.html",
-					"settings":
-					{
-						"buffer_size": 586,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								168,
-								168
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "Project/frontPage.css",
-					"settings":
-					{
-						"buffer_size": 885,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								822,
-								822
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 148.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "Project/spiner.html",
-					"settings":
-					{
-						"buffer_size": 1785,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "Project/style.css",
-					"settings":
-					{
-						"buffer_size": 1865,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "Project/func.js",
-					"settings":
-					{
-						"buffer_size": 2989,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								16,
-								16
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
